@@ -1,0 +1,1 @@
+"""LectureAI tests."""

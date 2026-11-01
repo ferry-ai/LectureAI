@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(900px 420px at 0% -10%, rgba(196, 92, 38, 0.08), transparent 55%),
+    #f3eee6;
+  color: #1c1915;
+  font-family: Figtree, sans-serif;
+}
+
+#root {
+  height: 100vh;
+}
+
+.cue-column {
+  background: linear-gradient(90deg, #c45c26 0 4px, #efe7db 4px);
+}
+
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 2px solid #c45c26;
+  outline-offset: 2px;
+}
